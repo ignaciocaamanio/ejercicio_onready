@@ -1,3 +1,30 @@
+let listaDeVehiculos = [
+  {
+    Marca: 'Peugeot',
+    Modelo: '206',
+    Puertas: '4',
+    Precio: 200000.00
+  },
+  {
+    Marca: 'Honda',
+    Modelo: 'Titan',
+    Cilindrada: '125c',
+    Precio: 60000.00
+  },
+  {
+    Marca: 'Peugeot',
+    Modelo: '208',
+    Puertas: '5',
+    Precio: 250000.00
+  },
+  {
+    Marca: 'Yamaha',
+    Modelo: 'YBR',
+    Cilindrada: '160c',
+    Precio: 80500.50
+  },
+]
+
 function Vehiculos(lista) {
   this.lista = lista
   this.formateaLista = () => {
@@ -38,33 +65,6 @@ function Vehiculos(lista) {
     return this.marcaYModelo(mod) + ' ' + this.formateaPrecio(mod.Precio)
   }
 }
-
-let listaDeVehiculos = [
-  {
-    Marca: 'Peugeot',
-    Modelo: '206',
-    Puertas: '4',
-    Precio: 200000.00
-  },
-  {
-    Marca: 'Honda',
-    Modelo: 'Titan',
-    Cilindrada: '125c',
-    Precio: 60000.00
-  },
-  {
-    Marca: 'Peugeot',
-    Modelo: '208',
-    Puertas: '5',
-    Precio: 250000.00
-  },
-  {
-    Marca: 'Yamaha',
-    Modelo: 'YBR',
-    Cilindrada: '160c',
-    Precio: 80500.50
-  },
-]
 
 function solucion() {
   let res = []
